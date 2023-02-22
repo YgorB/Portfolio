@@ -5,7 +5,6 @@
 }
 body{
     font-size: 20px;
-    background-color: #23232e;
     overflow-x: hidden;
 }
 /*menu */
@@ -76,39 +75,7 @@ h3{
     transition: 0.5s;
 }
 
-@media screen and (max-width: 1008px){
 
-
-
-.nav-list{
-    position: absolute;
-    top: 5vh;
-    left: 0;
-    width: 50vw;
-    height: 92vh;
-    background-color: #23232e;
-    flex-direction:column;
-    align-items: center;
-    justify-content: space-around;
-    transition: transform 0.3s ease-out;
-}
-
-.navList-menu{
-    position: fixed;
-}
-
-.Menu{
-    display: flex;
-    justify-content: center;
-}
-
-.HeaderBiograph{
-    display: flex;
-    margin: auto;
-    text-align: center;
-    width: 70%;
-    z-index: 2;
-}}
 
 
 /* Conteudo main */
@@ -165,7 +132,7 @@ h3{
 
 .HeaderBiograph{
     display: flex;
-    margin: 50px auto 50px;
+    margin: 100px auto 50px;
     text-align: center;
     width: 70%;
     z-index: 2;
@@ -192,7 +159,7 @@ h3{
 }
 
 .img{
-    width: 46vw;
+    width: 36vw;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,13 +167,24 @@ h3{
 
 .project-line{
     position: absolute;
-    right: 0%;
+    right: 3px;
+    z-index: -1;
+}
+.project-line2{
+    position: absolute;
+    right: 15vw;
     z-index: -1;
 }
 
 .project-line-reverse{
     position: absolute;
-    left: 0%;
+    left: 3px;
+    z-index: -1;
+}
+
+.project-line-reverse2{
+    position: absolute;
+    left: 50vw;
     z-index: -1;
 }
 
@@ -329,3 +307,39 @@ h3{
     transition: 1s all;
 }
 
+
+
+@media screen and (max-width: 1008px){
+
+
+
+    .nav-list{
+        position: absolute;
+        top: 5vh;
+        left: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #23232e;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+        transition: transform 0.3s ease-out;
+    }
+    
+    .navList-menu{
+        position: fixed;
+    }
+    
+    .Menu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .HeaderBiograph{
+        margin-top: 5%;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        z-index: 2;
+    }}

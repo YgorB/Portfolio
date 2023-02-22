@@ -1,3 +1,23 @@
+let mobileMenu = document.querySelector('.Menu');
+
+//Desabilita e habilita o Menu
+function MenuShowOff(){
+    let navList = document.querySelector('.nav-list');
+
+    if(navList.classList.contains('ShowOff')){
+        navList.classList.add('ShowOn')
+        navList.classList.remove('ShowOff');
+    }else{
+        navList.classList.add('ShowOff');
+        navList.classList.remove('ShowOn');
+        
+    }
+}
+
+mobileMenu.addEventListener('click', MenuShowOff);
+
+
+
 //Texto da Biografia
 
 let text1 = document.querySelector('.text1');
@@ -6,8 +26,6 @@ let text3 = document.querySelector('.text3');
 let text4 = document.querySelector('.text4');
 let text5 = document.querySelector('.text5');
 let text6 = document.querySelector('.text6');
-
-
 
 let showOn = document.querySelector('.showOn');
 

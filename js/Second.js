@@ -58,8 +58,6 @@ target1.addEventListener('click', function (){
         target1.style.backgroundColor = 'black';
         target1.style.transition = 'all 1s';
         hr1.style.backgroundColor = 'black';
-
-        
     }else{
         verify1.classList.remove('showOn');
         verify1.classList.add('showOff1');

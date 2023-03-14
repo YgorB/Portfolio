@@ -1,19 +1,22 @@
-*{
+* {
     margin: 0px;
     color: white;
-    padding: 0px; 
+    padding: 0px;
 }
-body{
+
+body {
     font-size: 20px;
     overflow-x: hidden;
 }
+
 /*menu */
-.a{
+.a {
     color: #fff;
     text-decoration: none;
-    border:none;
+    border: none;
 }
-a:hover{
+
+a:hover {
     transition: 0.3s all ease;
     border: 2px solid black;
     border-top: transparent;
@@ -21,13 +24,13 @@ a:hover{
     border-right: transparent;
 }
 
-.logo{
+.logo {
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     position: sticky;
@@ -40,7 +43,7 @@ header{
     height: 100px;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     width: 100%;
     padding: 20px;
@@ -48,26 +51,26 @@ header{
     /* animation: navLinkFade 0.3s ease-in-out */
 }
 
-.nav-list li{
+.nav-list li {
     font-size: 1.1rem;
     letter-spacing: 3px;
     margin-right: 15px;
 }
 
-h3{
+h3 {
     color: white;
 }
 
 /*efeito ao passar o mouse pelo hamburguer*/
-.Menu{
+.Menu {
     display: none;
     position: relative;
     cursor: pointer;
-    
+
 }
 
 /*Hamburguer */
-.Icon_header div{
+.Icon_header div {
     width: 50px;
     height: 2px;
     background-color: #fff;
@@ -80,7 +83,7 @@ h3{
 
 /* Conteudo main */
 
-.container-content{
+.container-content {
     position: relative;
     display: flex;
     width: 100%;
@@ -90,14 +93,14 @@ h3{
     z-index: -99;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     width: 26%;
 
     background-color: white;
 }
 
-.Leopold{
+.Leopold {
     background-image: url(../assets/images/LeopoldMozart.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,40 +109,41 @@ h3{
 
 
 
-.mozartMom{
+.mozartMom {
     background-image: url(../assets/images/Anna_Maria_Mozart.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.Mozart{
+.Mozart {
     margin-top: 20%;
-    background-image:url(../assets/images/MozartB.jpeg);
-    background-size:cover;
+    background-image: url(../assets/images/MozartB.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     display: flex;
     justify-content: center;
     background-color: #23232e;
 }
-.center img{
+
+.center img {
     margin: auto;
 }
 
 
 /* história de mozart */
 
-.HeaderBiograph{
+.HeaderBiograph {
     display: flex;
-    margin: 100px auto 50px;
+    margin: 100px auto;
     text-align: center;
-    width: 70%;
+    width: 100%;
     z-index: 2;
-    color:white;
+    color: white;
 }
 
-.skills{
+.skills {
     z-index: 1;
     width: 30%;
     display: flex;
@@ -149,40 +153,41 @@ h3{
 
 
 /* imagens */
-.container-images{
+.container-images {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
-    
+
 }
 
-.img{
+.img {
     width: 36vw;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.project-line{
+.project-line {
     position: absolute;
     right: 3px;
     z-index: -1;
 }
-.project-line2{
+
+.project-line2 {
     position: absolute;
     right: 15vw;
     z-index: -1;
 }
 
-.project-line-reverse{
+.project-line-reverse {
     position: absolute;
     left: 3px;
     z-index: -1;
 }
 
-.project-line-reverse2{
+.project-line-reverse2 {
     position: absolute;
     left: 50vw;
     z-index: -1;
@@ -190,41 +195,42 @@ h3{
 
 /* imagens de fundo */
 
-.city{
-    background-image: url(../assets/images/city.jpg);   
+.city {
+    background-image: url(../assets/images/city.jpg);
 }
 
-.cravo{
+.cravo {
     background-image: url(../assets/images/cravo.jpg);
     height: 55vh;
 }
 
-.munique{
+.munique {
     background-image: url(../assets/images/munique.jpg);
     height: 50vh;
     width: 46vw;
 }
 
-.italia{
+.italia {
     background-image: url(../assets/images/italia.webp);
     height: 50vh;
     width: 46vw;
 }
 
-.Mozar{
+.Mozar {
     background-image: url(../assets/images/Mozart.jpeg);
     height: 60vh;
     width: 25vw;
 }
 
-.Rei{
+.Rei {
     background-image: url(../assets/images/rei.jpeg);
     height: 50vh;
     width: 20vw;
 }
+
 /* exec text */
 
-.circle{
+.circle {
     position: relative;
     left: -7px;
     width: 15px;
@@ -236,20 +242,31 @@ h3{
     cursor: pointer;
 }
 
-.circle:hover{
+.circle:hover {
     left: -10px;
     width: 20px;
     height: 20px;
 
 }
 
-.circle2, .circle4, .circle6{
+.circle1, .hr1{
+    background-color: black;
+}
+
+.circle2,
+.circle4,
+.circle6 {
     margin-left: 50%;
 }
 
 /* showOff */
 
-.showOff1, .showOff2, .showOff3, .showOff4, .showOff5, .showOff6{
+.showOff1,
+.showOff2,
+.showOff3,
+.showOff4,
+.showOff5,
+.showOff6 {
     display: none;
     position: absolute;
     opacity: 0;
@@ -258,7 +275,12 @@ h3{
     transform: translateX(-25px);
 }
 
-.showOn1, .showOn2, .showOn3, .showOn4, .showOn5, .showOn6{
+.showOn1,
+.showOn2,
+.showOn3,
+.showOn4,
+.showOn5,
+.showOn6 {
     opacity: 1;
     transform: translateX(0px);
     transition: 0.5s all;
@@ -268,78 +290,57 @@ h3{
 
 /* textConfig */
 
-.text-align-reverse{
+.text-align-reverse {
     margin-right: 50%;
-    width: 350px;
+    width: 700px;
     text-align: center;
 }
 
-.no-text-align-reverse{
+.no-text-align-reverse {
     margin-left: 50%;
-    width: 350px;
+    width: 46vw;
     text-shadow: 2px 2px 3px black;
     text-align: left;
 }
 
 
-.text-align{
-    margin-left:50%;
+.text-align {
+    margin-left: 50%;
     width: 500px;
 }
 
 
-.no-text-align{
+.no-text-align {
     margin-left: -65%;
     width: 350px;
     text-align: right;
 }
 
-.no-text-align p{
+.no-text-align p {
     color: white;
     font-size: 1.4rem;
     text-shadow: 2px 2px 3px black;
+    width: 100%;
 }
 
-.hr1, .hr2, .hr3, .hr4, .hr5, .hr6{
-    background-color: white;
+.hr1,
+.hr2,
+.hr3,
+.hr4,
+.hr5,
+.hr6 {
     margin-left: 50%;
     border: none;
     transition: 1s all;
 }
 
+.hr2,
+.hr3,
+.hr4,
+.hr5,
+.hr6{
+    background-color: white;
+}
 
 
-@media screen and (max-width: 1008px){
 
-
-
-    .nav-list{
-        position: absolute;
-        top: 5vh;
-        left: 0;
-        width: 50vw;
-        height: 92vh;
-        background-color: #23232e;
-        flex-direction:column;
-        align-items: center;
-        justify-content: space-around;
-        transition: transform 0.3s ease-out;
-    }
-    
-    .navList-menu{
-        position: fixed;
-    }
-    
-    .Menu{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .HeaderBiograph{
-        margin-top: 5%;
-        display: flex;
-        margin: auto;
-        text-align: center;
-        width: 70%;
-        z-index: 2;
-    }}
